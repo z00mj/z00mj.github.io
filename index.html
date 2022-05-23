@@ -13,13 +13,15 @@
     <div class="main-container" id="home">
         <div class="navbar-container">
             <div class="logo">MJP</div>
-            <ul class="navbar-wrapper">
+            <ul class="navbar-wrapper" id="menulist">
                 <li class="navbar-item"><a href="#home">Home</a></li>
                 <li class="navbar-item"><a href="#about">About</a></li>
                 <li class="navbar-item"><a href="#project">Project</a></li>
                 <li class="navbar-item"><a href="#contact">Contact</a></li>
             </ul>
-            <img src="./images/menu.png" alt="" class="menu-icon">
+            <div class="menu-icon">
+                <img src="./images/menu.png" alt="" onclick="toggle()">
+            </div>
         </div>
         <div class="hero-container">
             <div class="hero-left">
@@ -162,6 +164,20 @@
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script>
+        const menulist = document.getElementById("menulist");
+        
+        menulist.style.display = "none";
+
+        function toggle() {
+            if (menulist.style.display == "none") {
+                menulist.style.display = "flex";
+            }
+            else {
+                menulist.style.display = "none";
+            }
+
+        }
+        
         var app = document.getElementById('simptxt');
 
         var typewriter = new Typewriter(app, {
@@ -175,6 +191,9 @@
         .pauseFor(300)
         .deleteChars(10)
         .start();
+    </script>
+    <script>
+        
     </script>
 </body>
 </html>
