@@ -535,8 +535,8 @@ i {
   
   /*------------------------------*/
 
-/*------------RESPONSIVE------------------*/
-@media only screen and (max-width: 720px) {
+/*------------RESPONSIVE ------------------*/
+@media screen and (max-device-width: 720px) {
     .main-container {
         width: 100%;
         height: 615px;
@@ -563,10 +563,6 @@ i {
     .navbar-wrapper.opened {
         display: flex;
     }
-
-    
-
-    
 
     .navbar-item {
         width: 100%;
@@ -686,4 +682,101 @@ i {
         left: 50%;
         top: 50%;
     }
+}
+/*------------------------------------------------*/
+
+
+
+/*----------------RESPONSIVE----------------------*/
+@media screen and (min-width: 375px) and (max-width: 625px) {
+    .main-container {
+        height: 515px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .menu-icon {
+        margin-right: 20px;
+    }
+
+    .hero-left {
+        height: 150px;
+    }
+
+    .hero-left h1 {
+        font-size: 3rem;
+    }
+
+    .hero-left h2 {
+        margin-top: 50px;
+        font-size: 2.25rem;
+    }
+
+    .about-container {
+        height: 1000px;
+    }
+
+    .about-left {
+        height: 650px;
+    }
+
+    .card-container-left {
+        width: 350px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-wrapper {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .about-right {
+        height: 350px;
+    }
+
+    .card-container-right {
+        width: 350px;
+        height: 300px;
+    }
+
+    .icon-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
+    }
+
+    .icon-wrapper{
+        width: 50%;
+    }
+
+    .project-card-container {
+        display: none;
+    }
+
+    .contact-container-left {
+        width: 350px;
+    }
+
+    .contact-right img {
+        width: 80%;
+    }
+
+    .contact-wrapper {
+        margin: 0;
+    }
+
+    .main-container, .about-container, .project-container, .contact-container {
+        width: 100%;
+    }
+
 }
