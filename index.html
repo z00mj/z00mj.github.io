@@ -163,20 +163,17 @@
     </div>
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script>
-        const menulist = document.getElementById("menulist");
+        $(document).ready(function(){
+            $(".menu-icon").click(function(){
+                $(".navbar-wrapper").toggleClass('opened');
+            });
+        });
         
-        menulist.style.display = "none";
 
-        function toggle() {
-            if (menulist.style.display == "none") {
-                menulist.style.display = "flex";
-            }
-            else {
-                menulist.style.display = "none";
-            }
-
-        }
+        
         
         var app = document.getElementById('simptxt');
 
@@ -191,9 +188,6 @@
         .pauseFor(300)
         .deleteChars(10)
         .start();
-    </script>
-    <script>
-        
     </script>
 </body>
 </html>

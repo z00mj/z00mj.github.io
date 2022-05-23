@@ -56,6 +56,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 }
 
+
+
 .navbar-item {
     
 }
@@ -547,17 +549,24 @@ i {
     }
 
     .navbar-wrapper {
-        top: 50px;
+        top: 5px;
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: aliceblue;
         position: absolute;
         z-index: 1;
-        display: none;
     }
+
+    .navbar-wrapper.opened {
+        display: flex;
+    }
+
+    
+
+    
 
     .navbar-item {
         width: 100%;
@@ -576,6 +585,7 @@ i {
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: 2;
     }
 
     .menu-icon img {
