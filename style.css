@@ -688,7 +688,7 @@ i {
 
 
 /*----------------RESPONSIVE----------------------*/
-@media screen and (min-width: 375px) and (max-width: 625px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 625px) {
     .main-container {
         height: 515px;
     }
