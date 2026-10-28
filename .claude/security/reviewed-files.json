@@ -1,0 +1,56 @@
+{
+  "reviewDate": "2026-10-28",
+  "sourceCommits": {
+    "website": "0baaea7ab5351a72f7ba6ce2b192b7f46ee1d328",
+    "jezweb": "1260fa7439b36b18dbf16648ccc7fb44783f6c23",
+    "jeffallan": "28bbf8954db78669f1cdb07f96693b5ee7664fee"
+  },
+  "scope": "Installed local skill files, including project adaptations. Hashes record reviewed bytes, not a guarantee of safety.",
+  "files": [
+    {
+      "path": ".claude/skills/design-review/LICENSE",
+      "sha256": "4530f92f44fe545e18773c7bbe0c312b0f04b78c161bdb784ff24f0ace9a5592",
+      "bytes": 1078
+    },
+    {
+      "path": ".claude/skills/design-review/SKILL.md",
+      "sha256": "d7ce1fb9c8a741ad5fc31a34dfface1e741203ce3823c216b23fd427515ebe49",
+      "bytes": 9214
+    },
+    {
+      "path": ".claude/skills/nextjs-developer/LICENSE",
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "bytes": 1056
+    },
+    {
+      "path": ".claude/skills/nextjs-developer/references/app-router.md",
+      "sha256": "9a381b409a5ea627d25003550a7209990b5d7e91d23ba4dc371c03ec32aa17cb",
+      "bytes": 3775
+    },
+    {
+      "path": ".claude/skills/nextjs-developer/references/server-components.md",
+      "sha256": "4d199beb1745366209d8ff818bfd734f76ec37220c82d47b9532b6b828bb4a80",
+      "bytes": 1973
+    },
+    {
+      "path": ".claude/skills/nextjs-developer/SKILL.md",
+      "sha256": "b8589576b5788e1a3ec02ca80188389eef41caa9f99956a1c2abd375b18c4348",
+      "bytes": 3955
+    },
+    {
+      "path": ".claude/skills/react-patterns/LICENSE",
+      "sha256": "4530f92f44fe545e18773c7bbe0c312b0f04b78c161bdb784ff24f0ace9a5592",
+      "bytes": 1078
+    },
+    {
+      "path": ".claude/skills/react-patterns/SKILL.md",
+      "sha256": "c439a57cbe8447ce9ee43345d590e01d7fc1e4b121a430dab29ed99a6038bab8",
+      "bytes": 10018
+    }
+  ],
+  "treeInventories": [
+    "website-tree.txt",
+    "jezweb-tree.txt",
+    "jeffallan-tree.txt"
+  ]
+}

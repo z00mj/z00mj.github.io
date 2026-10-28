@@ -1,214 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-09MJ81K6H1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-09MJ81K6H1');
-    </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta property=’og:title’ content='z00mj'/>
-    <meta property=’og:image’ content='./images/prof-removebg.png’ />
-    <meta property=’og:description’ content='DESCRIPTION OF YOUR SITE'/>
-    <meta property=’og:url’ content='z00mj.github.io'/>
-    <meta property='og:image:width' content='300' />
-    <meta property='og:image:height' content='500' />
-    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
-    <meta property="og:type" content='website'/>
-
-
-
-    <title>MJP</title>
-    <link rel="icon" href="./images/DE.ico" type="image/icon">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Marc Joshua Prudente — Electronics Engineer &amp; Developer</title>
+  <meta name="description" content="The portfolio of Marc Joshua Prudente. Electronics engineering, software development, and technical education — with a curiosity for how things work.">
+  <link rel="canonical" href="https://z00mj.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Marc Joshua Prudente — Engineering &amp; Development">
+  <meta property="og:description" content="Electronics engineering, software development, and technical education. Explore selected projects and get in touch.">
+  <meta property="og:url" content="https://z00mj.github.io/">
+  <meta property="og:image" content="https://z00mj.github.io/images/prof-removebg.png">
+  <meta property="og:image:alt" content="Portrait of Marc Joshua Prudente">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="main-container" id="home">
-        <div class="navbar-container">
-            <div class="logo">MJP</div>
-            <ul class="navbar-wrapper" id="menulist">
-                <li class="navbar-item"><a href="#home">Home</a></li>
-                <li class="navbar-item"><a href="#about">About</a></li>
-                <li class="navbar-item"><a href="#project">Project</a></li>
-                <li class="navbar-item"><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-icon">
-                <img src="./images/menu.png" alt="" onclick="toggle()">
-            </div>
-        </div>
-        <div class="hero-container">
-            <div class="hero-left">
-                <h2>LET US WORK</h2>
-                <h1 id="simptxt"></h1>
-            </div>
-            <div class="hero-right">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="Marc Joshua Prudente, home"><span class="wordmark-typing" aria-hidden="true"><span>m</span><span>j</span><span>p</span><span class="wordmark-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="menu-label">Menu</span><span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#project">Selected work</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-                <!---CREDITS TO KUNAL SARKAR FOR THIS REACTOR!-->
-                <div class="reactor-container">
-                    <div class="reactor-container-inner circle abs-center"></div>
-                    <div class="tunnel circle abs-center"></div>
-                    <div class="core-wrapper circle abs-center"></div>
-                    <div class="core-outer circle abs-center"></div>
-                    <div class="core-inner circle abs-center"></div>
-                    <div class="coil-container">
-                      <div class="coil coil-1"></div>
-                      <div class="coil coil-2"></div>
-                      <div class="coil coil-3"></div>
-                      <div class="coil coil-4"></div>
-                      <div class="coil coil-5"></div>
-                      <div class="coil coil-6"></div>
-                      <div class="coil coil-7"></div>
-                      <div class="coil coil-8"></div>
-                    </div>
-                  </div>
-            </div>
+  <main id="main" tabindex="-1">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-rule" aria-hidden="true"></span> Engineering. Data. Curiosity.</p>
+        <h1 id="hero-title">Marc Joshua<br>Prudente<span class="accent">.</span></h1>
+        <p class="hero-role">Electronics engineer &amp; developer</p>
+        <p class="hero-intro">An engineer's curiosity, a developer's toolkit, and experience in teaching and supply chain operations. Exploring how data, AI, and automation connect systems and people.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#project">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#about">A little about me <span aria-hidden="true">→</span></a>
         </div>
+        <a class="hero-scroll" href="#project"><span aria-hidden="true">↓</span> A few things I've worked on</a>
+      </div>
+      <figure class="hero-portrait">
+        <div class="portrait-stage">
+          <span class="portrait-monogram" aria-hidden="true">MJP</span>
+          <span class="portrait-cross portrait-cross-top" aria-hidden="true">+</span>
+          <span class="portrait-cross portrait-cross-bottom" aria-hidden="true">+</span>
+          <img src="images/prof-removebg.png" alt="Marc Joshua Prudente" width="533" height="580" fetchpriority="high">
+          <span class="portrait-label" aria-hidden="true">A WORK IN PROGRESS. ALWAYS.</span>
+        </div>
+        <figcaption><span>Curiosity, made practical.</span><span class="figure-index" aria-hidden="true">FIG. 01</span></figcaption>
+      </figure>
+    </section>
+
+    <div class="disciplines container" aria-label="Areas of interest">
+      <span>Electronics engineering</span><span>Software development</span><span>Technical education</span>
     </div>
 
-    <div class="about-container" id="about">
-        <div class="about-left">
-            <div class="card-container-left">
-                <h3>Profile</h3>
-                <div class="card-wrapper">
-                    <div class="image-wrapper">
-                        <img src="./images/prof-removebg.png" alt="">
-                    </div>
-                    <div class="info-wrapper">
-                        <h5>NAME: Marc Joshua Prudente</h5>
-                        <h5>Degree: BS Electronics Engineer</h5>
-                        <h5>School: PUP-Maragondon (2013-2018)</h5>
-                        <h5>License: Electronics Engineer | Electronics Technician</h5>
-                        <h5>Hobby: Programming | Dota | NBA2k</h5>
-                    </div>
-                </div>
-                <div class="exp-wrapper">
-                    <h4>Work Experience</h4>
-                    <table cellspacing="10">
-                        <thead>
-                            <tr>
-                                <th>Year</th>
-                                <th>Company Name</th>
-                                <th>Position</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>2020-2022</td>
-                                <td>Cavite State University - CCAT</td>
-                                <td>Instructor</td>
-                            </tr>
-                            <tr>
-                                <td>March - Aug (2019)</td>
-                                <td>Hitec RCD Philippines Inc.</td>
-                                <td>Quality Assurance Engineer</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="about-right">
-            <div class="card-container-right">
-                <h3>Languages/Frameworks</h3>
-                <div class="icon-container">
-                    <div class="icon-wrapper"><i class='bx bxl-html5 bx-lg bx-tada-hover'></i><h4>HTML5</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-css3 bx-lg bx-tada-hover'></i><h4>CSS3</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-javascript bx-lg bx-tada-hover'></i><h4>Javascript</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-bootstrap bx-lg bx-tada-hover' ></i><h4>Bootstrap</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-react bx-lg bx-tada-hover' ></i><h4>ReactJS</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-flutter bx-lg bx-tada-hover' ></i><h4>Flutter</h4></div>            
-                    <div class="icon-wrapper"><i class='bx bxl-nodejs bx-lg bx-tada-hover' ></i><h4>NodeJS</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-php bx-lg bx-tada-hover' ></i><h4>PHP</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-python bx-lg bx-tada-hover' ></i><h4>Python</h4></div>
-                    <div class="icon-wrapper"><i class='bx bxl-c-plus-plus bx-lg bx-tada-hover' ></i><h4>C++</h4></div>            
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="project-container" id="project">
-        <h2>Projects</h2>
-        <div class="project-card-container">
-            <div class="project-wrapper">
-                <img src="./images/salbabot.PNG" alt="">
-            </div>
-            <div class="project-wrapper">
-                <img src="./images/poolwater.PNG" alt="">
-            </div>
-            <div class="project-wrapper">
-                <img src="./images/iot.PNG" alt="">
-            </div>
-        </div>
-    </div>
+    <section class="work-section section-space container" id="project" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / Selected work</p><h2 id="work-title">Systems, software,<br>and data.</h2></div>
+        <p class="section-intro">From supplier chain dashboards and applications to data analytics automation. Alongside these areas, explore selected engineering projects and academic work.</p>
+      </div>
 
-    <div class="contact-container" id="contact">
-        <div class="polygon-center"></div>
-        <div class="contact-left">
-            <div class="contact-container-left">
-                <h3>Contact Me!</h3>
-                <div class="contact-wrapper">
-                    <i class='bx bxs-phone-call bx-md'></i> <h4>+639-777-136-757</h4>
-                </div>
-                <div class="contact-wrapper">
-                    <a href="https://www.facebook.com/z00mj">
-                      <i class='bx bxl-facebook-circle bx-md'></i> <a href="https://www.facebook.com/z00mj">www.facebook.com/z00mj</a>
-                    </a>
-                </div>
-                <div class="contact-wrapper">
-                    <a href="https://accounts.google.com/signin">
-                      <i class='bx bxl-gmail bx-md'></i> <a href="https://accounts.google.com/signin">mjprudente25@gmail.com</a>
-                    </a>
-                </div>
-                <div class="contact-wrapper">
-                    <a href="https://www.linkedin.com/in/z00mj/">
-                      <i class='bx bxl-linkedin-square bx-md'></i> <a href="https://www.linkedin.com/in/z00mj/">www.linkedin.com/in/z00mj/</a>
-                    </a>
-                </div>
-                <div class="contact-wrapper">
-                    <a href="https://github.com/z00mj">
-                      <i class='bx bxl-github bx-md'></i> <a href="https://github.com/z00mj">github.com/z00mj</a>
-                    </a>
-                </div>
+      <ul class="work-areas" aria-label="Areas of selected work">
+        <li><span class="work-area-index" aria-hidden="true">01 /</span><h3>Supplier Chain Dashboards</h3></li>
+        <li><span class="work-area-index" aria-hidden="true">02 /</span><h3>Web App</h3></li>
+        <li><span class="work-area-index" aria-hidden="true">03 /</span><h3>Desktop App</h3></li>
+        <li><span class="work-area-index" aria-hidden="true">04 /</span><h3>Data Analytics Automation</h3></li>
+      </ul>
+      <p class="eyebrow engineering-label">Engineering &amp; academic projects</p>
+
+      <article class="featured-project" aria-labelledby="salba-title">
+        <div class="project-visual boat-visual">
+          <div class="visual-topline"><span>SEARCH &amp; RESCUE</span><span>01</span></div>
+          <svg class="boat-drawing" viewBox="0 0 460 280" fill="none" aria-hidden="true">
+            <path class="drawing-guide" d="M35 205H425M230 28V250M65 85H395M65 85V230M395 85V230"/>
+            <path class="drawing-main" d="M100 163H361L326 208H137L100 163ZM157 163L172 120H298L315 163M202 120V90H269V120M235 90V49M235 49L277 69H235"/>
+            <path class="drawing-detail" d="M188 136H211V153H188ZM223 136H246V153H223ZM258 136H281V153H258Z"/>
+            <path class="drawing-water" d="M61 224C80 212 99 236 118 224S156 212 175 224S213 236 232 224S270 212 289 224S327 236 346 224S384 212 403 224"/>
+            <circle class="drawing-signal" cx="235" cy="49" r="8"/><path class="drawing-signal" d="M214 42A24 24 0 0 1 256 42M200 35A40 40 0 0 1 270 35"/>
+          </svg>
+          <div class="visual-caption"><span>SALBA–BOT</span><span>Project illustration</span></div>
+        </div>
+        <div class="featured-copy">
+          <p class="project-category">Robotics / Remote control</p>
+          <h3 id="salba-title">A small boat.<br>A meaningful purpose.</h3>
+          <p>SALBA-BOT is a remote-controlled robotic boat designed for search-and-rescue operations in flooded and storm-affected areas.</p>
+          <p>Its project brief describes RF control, a camera, and a microphone for transmitting video and audio. “Salba” comes from the Filipino word for rescue.</p>
+          <ul class="project-tags" aria-label="SALBA-BOT topics"><li>Robotics</li><li>RF control</li><li>Search &amp; rescue</li></ul>
+          <details class="project-details">
+            <summary>View project brief <span aria-hidden="true">+</span></summary>
+            <div class="project-document">
+              <p>The original brief includes the project description and its remote-control components.</p>
+              <a href="images/salbabot.PNG"><img src="images/salbabot.PNG" width="389" height="409" alt="Original SALBA-BOT brief describing the remote-controlled rescue boat and its components" loading="lazy" decoding="async"><span>Open original brief <span aria-hidden="true">↗</span></span></a>
             </div>
+          </details>
         </div>
-        <div class="contact-right">
-            <img src="./images/thanks.gif" alt="">
+      </article>
+
+      <div class="project-pair">
+        <article class="secondary-project" aria-labelledby="pool-title">
+          <div class="project-topline"><p class="project-category">Automation / Academic work</p><span class="project-number" aria-hidden="true">02</span></div>
+          <div class="project-symbol" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none"><path d="M40 9C40 9 17 35 17 48A23 23 0 0 0 63 48C63 35 40 9 40 9Z"/><path d="M27 49C27 56 32 62 40 62M5 31H19M61 31H75M9 68H23M57 68H71"/></svg></div>
+          <h3 id="pool-title">Taking a closer look<br>at water automation.</h3>
+          <p>Academic work on an automated pool-water chlorination system, presented to the College of Engineering at PUP Maragondon.</p>
+          <details class="project-details">
+            <summary>View thesis cover <span aria-hidden="true">+</span></summary>
+            <div class="project-document"><a href="images/poolwater.PNG"><img src="images/poolwater.PNG" width="469" height="483" alt="Thesis cover: Automated Pool Water Chlorination System, PUP Maragondon" loading="lazy" decoding="async"><span>Open original document <span aria-hidden="true">↗</span></span></a></div>
+          </details>
+        </article>
+        <article class="secondary-project" aria-labelledby="iot-title">
+          <div class="project-topline"><p class="project-category">Internet of Things / Thesis advising</p><span class="project-number" aria-hidden="true">03</span></div>
+          <div class="project-symbol" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none"><rect x="17" y="20" width="46" height="51" rx="4"/><path d="M25 29H55V44H25ZM45 49L35 59H46L36 68M30 12A15 15 0 0 1 50 12M23 5A25 25 0 0 1 57 5"/></svg></div>
+          <h3 id="iot-title">Connecting energy<br>with information.</h3>
+          <p>An Internet of Things smart energy meter thesis from Cavite State University. My role is listed as adviser in the original document.</p>
+          <details class="project-details">
+            <summary>View thesis cover <span aria-hidden="true">+</span></summary>
+            <div class="project-document"><a href="images/iot.PNG"><img src="images/iot.PNG" width="374" height="509" alt="Smart Energy Meter thesis cover listing Engr. Marc Joshua Prudente as adviser" loading="lazy" decoding="async"><span>Open original document <span aria-hidden="true">↗</span></span></a></div>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section section-space" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="eyebrow">02 / A little about me</p>
+          <h2 id="about-title">An engineer's mindset.<br>A teacher's perspective.</h2>
+          <p>I studied Electronics Engineering at the Polytechnic University of the Philippines, Maragondon. My experience spans higher education, quality assurance, data, and supply chain operations. Today, I teach at Lyceum of the Philippines — Cavite and work in supply chain operations at Gomaterials.</p>
+          <p>I enjoy exploring both sides of a system: how the physical pieces work, and how software can connect them. Away from the technical side, you'll find me playing Dota or NBA 2K.</p>
+          <dl class="credentials">
+            <div><dt>Education</dt><dd>Master in Computer Engineering<br><span>Cavite State University — CAPS · 2024–Present<br>Academic units completed</span></dd><dd>BS Electronics Engineering<br><span>PUP Maragondon · 2013–2018</span></dd></div>
+            <div><dt>Certification</dt><dd>Google Data Analytics</dd><dt>Licenses</dt><dd>Electronics Engineer<br>Electronics Technician</dd></div>
+          </dl>
+          <figure class="reactor-feature">
+            <!-- Original portfolio CSS arc reactor, credited to Kunal Sarkar. -->
+            <div class="reactor-stage" aria-hidden="true">
+              <div class="reactor-container">
+                <div class="reactor-container-inner circle abs-center"></div>
+                <div class="tunnel circle abs-center"></div>
+                <div class="core-wrapper circle abs-center"></div>
+                <div class="core-outer circle abs-center"></div>
+                <div class="core-inner circle abs-center"></div>
+                <div class="coil-container">
+                  <div class="coil coil-1"></div><div class="coil coil-2"></div>
+                  <div class="coil coil-3"></div><div class="coil coil-4"></div>
+                  <div class="coil coil-5"></div><div class="coil coil-6"></div>
+                  <div class="coil coil-7"></div><div class="coil coil-8"></div>
+                </div>
+              </div>
+            </div>
+            <figcaption><div><span class="eyebrow">A spark of curiosity</span><p class="reactor-credit">Original concept: Kunal Sarkar.</p></div></figcaption>
+          </figure>
         </div>
-    </div>
+        <div class="experience">
+          <h3>Experience</h3>
+          <ol class="experience-list">
+            <li><p class="experience-date">2025–Present</p><h4>Supply Chains Operation Consultant and Lead</h4><p>Gomaterials</p></li>
+            <li><p class="experience-date">2025–Present</p><h4>Instructor</h4><p>Lyceum of the Philippines — Cavite</p></li>
+            <li><p class="experience-date">2023–2025</p><h4>Data Specialist</h4><p>Gomaterials</p></li>
+            <li><p class="experience-date">2023–2025</p><h4>Assistant Professor I</h4><p>Cavite State University — CCAT</p></li>
+            <li><p class="experience-date">2020–2022</p><h4>Instructor</h4><p>Cavite State University — CCAT</p><span class="experience-line" aria-hidden="true"></span></li>
+            <li><p class="experience-date">March–August 2019</p><h4>Quality Assurance Engineer</h4><p>Hitec RCD Philippines Inc.</p><span class="experience-line" aria-hidden="true"></span></li>
+          </ol>
+          <p class="experience-note">A background in understanding systems,<br>and helping others understand them too.</p>
+        </div>
+      </div>
+    </section>
 
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $(".menu-icon").click(function(){
-                $(".navbar-wrapper").toggleClass('opened');
-            });
-        });
-        
+    <section class="toolkit-section section-space container" aria-labelledby="toolkit-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 / The toolkit</p><h2 id="toolkit-title">Different tools.<br>The same curiosity.</h2></div>
+        <p class="section-intro">Tools and skills across data analytics, automation, web, software, and mobile development.</p>
+      </div>
+      <div class="toolkit-grid">
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">A /</span><h3>Data &amp; automation</h3><ul><li>Power Query (Excel &amp; Power BI)</li><li>Data Analytics</li><li>AI</li><li>Automation</li></ul></div>
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">B /</span><h3>Web development</h3><ul><li>HTML &amp; CSS</li><li>JavaScript</li><li>React</li><li>Bootstrap</li></ul></div>
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">C /</span><h3>Software &amp; scripting</h3><ul><li>Python</li><li>C++</li><li>Node.js</li><li>PHP</li></ul></div>
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">D /</span><h3>Mobile development</h3><ul><li>Flutter</li></ul><p class="toolkit-note">Another way to bring an idea<br>into someone's hands.</p></div>
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">E /</span><h3>Database management</h3><ul><li>Supabase</li><li>PostgreSQL</li></ul></div>
+        <div class="toolkit-group"><span class="toolkit-index" aria-hidden="true">F /</span><h3>Delivery &amp; project management</h3><ul><li>Git</li><li>CI/CD</li><li>Jira (project management)</li></ul></div>
+      </div>
+    </section>
 
-        
-        
-        var app = document.getElementById('simptxt');
+    <section class="contact-section section-space" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div><p class="eyebrow">04 / Start a conversation</p><h2 id="contact-title">Have something<br>in mind<span>?</span></h2><p>A project, a question, or an interesting idea.<br>I'd be happy to hear from you.</p></div>
+        <div class="contact-actions">
+          <a class="contact-email" href="mailto:mjprudente25@gmail.com"><span>Send me an email</span><span aria-hidden="true">↗</span></a>
+          <a class="email-address" href="mailto:mjprudente25@gmail.com">mjprudente25@gmail.com</a>
+          <a class="phone-link" href="tel:+639777136757">+63 977 713 6757</a>
+          <ul class="social-links" aria-label="Social profiles"><li><a href="https://github.com/z00mj">GitHub <span aria-hidden="true">↗</span></a></li><li><a href="https://www.linkedin.com/in/z00mj/">LinkedIn <span aria-hidden="true">↗</span></a></li><li><a href="https://www.facebook.com/z00mj">Facebook <span aria-hidden="true">↗</span></a></li></ul>
+        </div>
+      </div>
+    </section>
+  </main>
 
-        var typewriter = new Typewriter(app, {
-        loop: true,
-        delay: 50,
-        });
-
-        typewriter
-        .pauseFor(1500)
-        .typeString('HELLO WORLD!')
-        .pauseFor(300)
-        .deleteChars(10)
-        .start();
-    </script>
+  <footer class="site-footer container"><a class="wordmark" href="#home" aria-label="Back to the top">mjp<span class="wordmark-dot" aria-hidden="true">.</span></a><p>Marc Joshua Prudente <span aria-hidden="true">/</span> Built with curiosity.</p><a class="back-to-top" href="#home">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>

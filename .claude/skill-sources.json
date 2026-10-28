@@ -1,0 +1,59 @@
+{
+  "website": {
+    "repository": "https://github.com/z00mj/z00mj.github.io",
+    "ref": "main",
+    "commit": "0baaea7ab5351a72f7ba6ce2b192b7f46ee1d328",
+    "status": "source-reviewed-external-runtime-dependencies-unresolved"
+  },
+  "status": "reviewed-subset-installed",
+  "installation": "project-local-skills",
+  "reviewDate": "2026-10-28",
+  "sources": [
+    {
+      "repository": "https://github.com/jezweb/claude-skills",
+      "ref": "main",
+      "reviewedCommit": "1260fa7439b36b18dbf16648ccc7fb44783f6c23",
+      "installedSkills": [
+        "design-review",
+        "react-patterns"
+      ],
+      "upstreamPaths": [
+        "plugins/frontend/skills/design-review",
+        "plugins/frontend/skills/react-patterns"
+      ],
+      "adaptations": [
+        "Added project scope/security prefaces; included original MIT license in each skill."
+      ],
+      "installedByThisSetup": true,
+      "wholePluginEnabled": false,
+      "excluded": [
+        "Root settings and external prompt hook",
+        "All commands, agents, hooks and MCP configuration",
+        "All other skills and templates"
+      ]
+    },
+    {
+      "repository": "https://github.com/Jeffallan/claude-skills",
+      "ref": "plugin",
+      "reviewedCommit": "28bbf8954db78669f1cdb07f96693b5ee7664fee",
+      "installedSkills": [
+        "nextjs-developer"
+      ],
+      "upstreamPaths": [
+        "skills/nextjs-developer"
+      ],
+      "adaptations": [
+        "Rewrote entrypoint for static frontend work with upstream attribution.",
+        "Kept reviewed frontend excerpts from app-router.md and server-components.md.",
+        "Excluded backend, server actions, deployment and unsafe HTML/upload examples.",
+        "Included original MIT license."
+      ],
+      "installedByThisSetup": true,
+      "wholePluginEnabled": false,
+      "excluded": [
+        "All plugin commands and unrelated skills",
+        "All hooks, agents, MCP and permission configuration"
+      ]
+    }
+  ]
+}

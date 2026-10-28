@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28",
+  "scope": "Current static frontend execution paths reviewed before browser execution. Local DOM-only navigation script; local styles/fonts/images; no package lifecycle/build process, remote scripts, trackers, storage, or inline event handlers. Fonts checked for WOFF2 signatures and OFL license inclusion; binary checks are not a full decoder security audit. Updated experience/education/skills and local SVG/CSS arc reactor reviewed; DOM-only motion toggle and IntersectionObserver entrances introduce no remote dependencies or HTML injection.",
+  "files": [
+    {
+      "path": "index.html",
+      "sha256": "4ecbcf8e093d21dfea9899fca9225969cbe59554dad75b165c7cf954b4cb7515"
+    },
+    {
+      "path": "style.css",
+      "sha256": "c3420c7630eac2fd2d791380425d32459efc916e43447b428a941b9730d77723"
+    },
+    {
+      "path": "script.js",
+      "sha256": "e34f29e2c974c2ecb654b3d21f53e0acadf5d836bc708e9333022f60ff2b1c43"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "c2288d88d870eaba391c656f592c96b64db763d2270d1e9cc9939da70fc05041"
+    },
+    {
+      "path": "assets/fonts/manrope-latin.woff2",
+      "sha256": "8c2def024c1bf31aacf3624ae3c4d701269b4ec3dc765c04830839f0d36b2d9e"
+    },
+    {
+      "path": "assets/fonts/manrope-OFL.txt",
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    {
+      "path": "assets/fonts/sources.json",
+      "sha256": "2663aee58ce0fdc5967d942d9c0658bc8c69198ddccc581cf4a025b14e2cd5bd"
+    },
+    {
+      "path": "assets/fonts/space-grotesk-latin.woff2",
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "assets/fonts/space-grotesk-OFL.txt",
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    }
+  ]
+}
